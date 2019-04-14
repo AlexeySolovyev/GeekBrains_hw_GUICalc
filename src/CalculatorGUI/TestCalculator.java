@@ -2,12 +2,12 @@ package CalculatorGUI;
 
 import javax.swing.*;
 
-    class Code {
+    class TestCalculator {
         public static void main(String[] args) {
-            Graphic g = new Graphic("Калькулятор");
+            Calculator g = new Calculator("Калькулятор");
             g.setVisible(true);
             g.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-            g.setSize(200, 225);
+            g.setSize(290, 270);
             g.setResizable(false);
             g.setLocationRelativeTo(null);
         }

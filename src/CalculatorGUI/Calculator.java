@@ -5,14 +5,14 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Graphic extends JFrame {
+public class Calculator extends JFrame {
     JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17, b18, b19;
     JTextField text;
     double n1, n2;
     boolean addition, subtraction, multiplication, division;
     Listener listen = new Listener();
 
-    public Graphic(String s) {
+    public Calculator(String s) {
         super(s);
         setLayout(new FlowLayout());
         b1 = new JButton("1");
@@ -25,8 +25,8 @@ public class Graphic extends JFrame {
         b8 = new JButton("8");
         b9 = new JButton("9");
         b10 = new JButton("0");
-        b11 = new JButton("<--");
-        b12 = new JButton("CE");
+        b11 = new JButton("<");
+        b12 = new JButton("Сброс");
         b13 = new JButton("±");
         b14 = new JButton("/");
         b15 = new JButton("*");
